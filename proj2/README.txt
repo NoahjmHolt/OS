@@ -51,9 +51,8 @@ PROBLEM DESCRIPTION AND REMEDIATION:
 		Goodbye: 14:16:49 2024
 
 	Print to std output: (5 pts)
-		To print to the console you would add a printf as well as
-		the printk that is already there.
-
+		To print to the console you would replace the KERN_INFO in the print to 
+		KERN_ALERT and that sends the message to the console
 
 	PART 2: Print Self Kernel Module
 	==========================
